@@ -1,0 +1,92 @@
+body {
+  background-color: #1a1a1a;
+  font-family: Georgia;
+  color: white;
+  padding: 40px;
+}
+
+nav {
+  background-color: gold;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+h1 {
+  color: gold;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.carte {
+  background-color: gold;
+  color: black;
+  padding: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.carte:hover {
+  background-color: white;
+}
+
+.description {
+  color: #cccccc;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.bouton {
+  background-color: gold;
+  color: black;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.bouton:hover {
+  background-color: white;
+  color: gold;
+}
+
+.formulaire input,
+.formulaire textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.formulaire textarea {
+  height: 150px;
+}
